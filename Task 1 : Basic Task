@@ -1,0 +1,46 @@
+rucruit@rucruit-ThinkCentre-M73:~$ ls
+rucruit@rucruit-ThinkCentre-M73:~$ pwd
+rucruit@rucruit-ThinkCentre-M73:~$ mkdir workspace
+rucruit@rucruit-ThinkCentre-M73:~$ cd workspace
+rucruit@rucruit-ThinkCentre-M73:~/workspace$
+rucruit@rucruit-ThinkCentre-M73:~/workspace$ ls
+CHANGELOG.md
+rucruit@rucruit-ThinkCentre-M73:~/workspace$ touch README.md
+rucruit@rucruit-ThinkCentre-M73:~/workspace$ cp README.md CHANGELOG.md
+rucruit@rucruit-ThinkCentre-M73:~/workspace$ ls -l *.md
+rucruit@rucruit-ThinkCentre-M73:~$ touch exercise.md
+rucruit@rucruit-ThinkCentre-M73:~$ ls
+rucruit@rucruit-ThinkCentre-M73:~$ mv exercise.md /tmp
+rucruit@rucruit-ThinkCentre-M73:~$ rm /tmp/exercise.md
+rucruit@rucruit-ThinkCentre-M73:~$ cat > umuzi.md
+rucruit@rucruit-ThinkCentre-M73:~$ cat > recruits.md
+rucruit@rucruit-ThinkCentre-M73:~$ cat > cohort.md
+rucruit@rucruit-ThinkCentre-M73:~$ echo "umuzi is Good for learning" > umuzi.md
+rucruit@rucruit-ThinkCentre-M73:~$ echo "umuzi is very organized for new recruits" > recruits.md
+rucruit@rucruit-ThinkCentre-M73:~$ echo "umuzi is very organized for new recruits" > cohort.md
+rucruit@rucruit-ThinkCentre-M73:~$ cat umuzi.md recruits.md cohort.md
+rucruit@rucruit-ThinkCentre-M73:~$ cat umuzi.md recruits.md cohort.md > summary.md
+rucruit@rucruit-ThinkCentre-M73:~$ echo 'The End' >> summary.md
+rucruit@rucruit-ThinkCentre-M73:~/Desktop$ locate umuzi
+rucruit@rucruit-ThinkCentre-M73:~$ locate umuzi > search_result.md
+rucruit@rucruit-ThinkCentre-M73:~/Desktop$ cd
+rucruit@rucruit-ThinkCentre-M73:~$ cd Documents
+rucruit@rucruit-ThinkCentre-M73:~/Documents$ touch pad.md
+rucruit@rucruit-ThinkCentre-M73:~$ cd Desktop
+rucruit@rucruit-ThinkCentre-M73:~/Desktop$ mkdir work
+rucruit@rucruit-ThinkCentre-M73:~$ cd Documents
+rucruit@rucruit-ThinkCentre-M73:~/Documents$ touch pad.md
+rucruit@rucruit-ThinkCentre-M73:~/Documents$ cp /home/rurcuit/Documents/pad.md pad_copy.md
+rucruit@rucruit-ThinkCentre-M73:~$ sudo updatedb
+rucruit@rucruit-ThinkCentre-M73:~$ cd -
+rucruit@rucruit-ThinkCentre-M73:~/Documents$ 
+rucruit@rucruit-ThinkCentre-M73:~$ locate pad_copy.md
+rucruit@rucruit-ThinkCentre-M73:~$ find ~ -iname \*.pdf
+rucruit@rucruit-ThinkCentre-M73:~$ find ~ -iname \*.pdf > pdf_results
+rucruit@rucruit-ThinkCentre-M73:~$ find . -mtime -1 -print
+rucruit@rucruit-ThinkCentre-M73:~$ nano my_bio.md
+
+
+
+
+
